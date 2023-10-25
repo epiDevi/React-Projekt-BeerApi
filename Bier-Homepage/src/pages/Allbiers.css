@@ -1,0 +1,37 @@
+.bier-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  border-bottom: 2px solid var(--grau-tr);
+  padding-bottom: 40px;
+}
+.right {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.bier-info img {
+  max-height: 190px;
+  max-width: 95px;
+  margin: 0 auto;
+}
+.bier-info h2 {
+  font-size: 1.8rem;
+  color: var(--grau);
+}
+.bier-info h3 {
+  font-size: 1.2rem;
+  color: var(--gelb);
+}
+.bier-info p {
+  font-size: 1.1rem;
+  color: var(--grau);
+}
+.bier-info a {
+  display: inline-block;
+  background-color: var(--gelb);
+  color: var(--weiss);
+  padding: 8px 25px;
+  border: none;
+  border-radius: 40px;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,61 @@
+:root {
+  --gelb: #ffca41;
+  --weiss: #ffffff;
+  --grau-tr: #3333337f;
+  --grau: #333333;
+}
+@font-face {
+  font-family: Roboto-Slab-Bold;
+  src: url("../public/Font/RobotoSlab-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Slab-Medium;
+  src: url("../public/Font/RobotoSlab-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Slab-Black;
+  src: url("../public/Font/RobotoSlab-Black.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  font-size: 62.5%;
+}
+/* fonts */
+.medium {
+  font-family: Roboto-Slab-Medium, Arial, Helvetica, sans-serif;
+}
+.black {
+  font-family: Roboto-Slab-Black, Arial, Helvetica, sans-serif;
+}
+.bold {
+  font-family: Roboto-Slab-Bold, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3.25rem;
+}
+a {
+  text-decoration: none;
+}
+
+/* Position */
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-t-24 {
+  margin-top: 24px;
+}
+.m-t-60 {
+  margin-top: 60px;
+}

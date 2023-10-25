@@ -1,0 +1,14 @@
+.pfeil {
+  position: fixed;
+  left: 60px;
+  bottom: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+.pfeil a {
+  font-size: 3rem;
+  padding: 5px;
+  background-color: var(--gelb);
+  color: white;
+  border-radius: 50%;
+}

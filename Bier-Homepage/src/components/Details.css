@@ -1,0 +1,28 @@
+.bier-details {
+  width: 100%;
+  margin: 140px auto;
+}
+.bier-details img {
+  max-height: 400px;
+  max-width: 18vw;
+  display: block;
+  margin: 0 auto;
+}
+.bier-details h1 {
+  color: black;
+}
+.bier-details h2 {
+  font-size: 1.13rem;
+  color: var(--gelb);
+}
+.bier-details .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--grau-tr);
+}
+.bier-details .description {
+  font-size: 1rem;
+  color: var(--grau);
+}

@@ -1,0 +1,32 @@
+.contianer {
+  width: 85%;
+  margin: 40px auto;
+}
+article:nth-of-type(1) .bier {
+  background: url("../../public/img/home1.jpg") no-repeat center;
+  background-size: cover;
+}
+article:nth-of-type(2) .bier {
+  background: url("../../public/img/home2.jpg") no-repeat center;
+  background-size: cover;
+}
+.bier {
+  height: 50vh;
+  display: flex;
+  align-items: end;
+}
+
+.bier div {
+  background-color: var(--gelb);
+  padding: 16px;
+  width: 100%;
+}
+.bier a {
+  font-size: 1.8rem;
+  color: var(--weiss);
+}
+.lorem {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
